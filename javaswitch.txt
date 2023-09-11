@@ -1,0 +1,20 @@
+public class Main {
+    public static void main (String[] args) {
+
+        String letters = "S";
+
+        switch(letters){
+            case "A":
+                System.out.println("This is the letter A");
+                break;
+            case "B":
+                System.out.println("This is the letter B");
+                break;
+            case "C":
+                System.out.println("This is the letter C");
+                break;
+            default:
+                System.out.println("This letter isn't  the letters a, b or c.");
+        }
+    }
+}
